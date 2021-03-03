@@ -1,4 +1,4 @@
-# Rotkaeppchen
+# Rotkäppchen
 Little Red Riding Hood Game
 
 This is a University homework (in German).
