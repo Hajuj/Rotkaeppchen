@@ -398,8 +398,6 @@ public class Maerchenwelt {
         if (rotkaeppchen.getPosition().equals(getOma().getPosition())) {
             System.out.println("Rotkäppchen ist bei Oma angekommen.");
             rotkaeppchen.sprechen(oma, 1);
-            oma.sprechen(rotkaeppchen, 2);
-            rotkaeppchen.sprechen(oma, 3);
             // Ziel auf Rotkäppchen zu Hause setzen
             wegFinden(new Position(0, 0));
             // Wenn Rotkäppchen zu Hause ist
