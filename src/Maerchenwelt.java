@@ -22,8 +22,8 @@ public class Maerchenwelt {
         karte[0][0] = rotkaeppchen;
         // Oma initialisieren
         Random random = new Random();
-        int k = random.nextInt((x - 1) - (x - 8)) + x - 8;      // x Gebiet limit
-        int z = random.nextInt((y - 1) - (y - 8)) + y - 8;      // y Gebiet limit
+        int k = random.nextInt((x - 1) - (x - 8) + 1) + x - 8;      // x Gebiet limit
+        int z = random.nextInt((y - 1) - (y - 8) + 1) + y - 8;      // y Gebiet limit
         oma = new Oma(new Position(k, z));
         karte[k][z] = oma;
         // Wolf initialisieren
