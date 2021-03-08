@@ -82,7 +82,7 @@ class Rotkaeppchen extends VerwunschenerWald implements Person {
         switch (zaehler) {
             case 1:
                 System.out.println("Hallo, Oma");
-                zaehler++;
+                konversationspartner.sprechen(this, zaehler + 1);
                 break;
             case 3:
                 System.out.println("Tschüss, Oma");
@@ -110,8 +110,7 @@ class Oma extends VerwunschenerWald implements Person {
     public void sprechen(Person konversationspartner, int zaehler) {
         if (zaehler == 2) {
             System.out.println("Hallo, Rotkäppchen");
-            zaehler++;
-
+            konversationspartner.sprechen(this, zaehler + 1);
         }
     }
 }
