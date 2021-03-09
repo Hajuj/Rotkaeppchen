@@ -4,11 +4,11 @@ import java.util.Random;
 public class Maerchenwelt {
 
     // Attribute
-    private final int x;
-    private final int y;
-    private final VerwunschenerWald[][] karte;
-    private final Oma oma;
-    private final Rotkaeppchen rotkaeppchen;
+    private int x;
+    private int y;
+    private VerwunschenerWald[][] karte;
+    private Oma oma;
+    private Rotkaeppchen rotkaeppchen;
     private Wolf wolf;
 
     // Konstruktor
